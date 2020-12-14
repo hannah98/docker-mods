@@ -5,7 +5,7 @@ on: [push, pull_request, workflow_dispatch]
 env:
   ENDPOINT: "linuxserver/mods" #don't modify
   BASEIMAGE: "beets"
-  MODNAME: "beets-alternatives"
+  MODNAME: "alternatives"
 
 jobs:
   build:
